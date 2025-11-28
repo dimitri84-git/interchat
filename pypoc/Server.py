@@ -24,4 +24,3 @@ def parsePacket(packetContents: str):
 pacdata = packet("J", "dimit", 3978, "hello world")
 print(pacdata)
 print(parsePacket(pacdata))
-
